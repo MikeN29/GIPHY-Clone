@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.searchBar {
+    text-align: center;
+    height: 130px;
+    color: aliceblue;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    z-index: 1;
+
+}
+
+
+
+img {
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+img:hover {
+    transform: scale(1.2);
+  }
+
+.searchButtons > * {
+    margin: 5px;
+}
+
+.search {
+    position: relative;
+    right: 1px;
+    width: 205px;
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    line-height: 20px;
+}
+
+#searchButton {
+    position: relative;
+    right: 1px;
+}
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto",sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.button-13:disabled {
+    background-color:black;
+    border: black;
+    border-color: black;
+    box-shadow: black;
+    opacity: 0;
+
+
+  }
